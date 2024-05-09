@@ -1,9 +1,9 @@
 const { sum, mul, sub, div } = require('../src/math');
 
 test('Adding 1 + 1 equals 2', () => {
-  expect(sum(1, 1)).toBe(2);
+  expect(sum(1, 1)).toBe(0);
 });
-test('Multiplying 1 * 1 equals 1', () => {
+
   expect(mul(1, 1)).toBe(1);
 });
 test('Subtracting 1 - 1 equals 0', () => {
